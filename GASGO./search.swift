@@ -1,6 +1,6 @@
 //
 //  search.swift
-//  GASGO.
+//  GasGo
 //
 //  Created by Gehad Eid on 11/10/2023.
 //

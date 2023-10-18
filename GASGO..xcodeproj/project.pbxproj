@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B86113E12AD67F3E00BA787B /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86113E02AD67F3E00BA787B /* homePage.swift */; };
+		B86113E32AD68A7100BA787B /* favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86113E22AD68A7100BA787B /* favorite.swift */; };
+		B86113E52AD68A9400BA787B /* search.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86113E42AD68A9400BA787B /* search.swift */; };
+		B8C1342C2AD7E31F00A0CC19 /* mapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C1342B2AD7E31F00A0CC19 /* mapModel.swift */; };
+		B8EDCD7F2ADAA2CD00EBE974 /* locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EDCD7E2ADAA2CD00EBE974 /* locations.swift */; };
+		B8EDCD812ADABD0000EBE974 /* stationDetailsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EDCD802ADABD0000EBE974 /* stationDetailsSheet.swift */; };
+		B8EDCD832ADB033400EBE974 /* stationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EDCD822ADB033400EBE974 /* stationCard.swift */; };
+		C8CDA02A2AD54A3B008531EF /* GASGO_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CDA0292AD54A3B008531EF /* GASGO_App.swift */; };
+		C8CDA02C2AD54A3B008531EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CDA02B2AD54A3B008531EF /* ContentView.swift */; };
+		C8CDA02E2AD54A3E008531EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8CDA02D2AD54A3E008531EF /* Assets.xcassets */; };
+		C8CDA0312AD54A3E008531EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8CDA0302AD54A3E008531EF /* Preview Assets.xcassets */; };
+		C8CDA03B2AD54A3E008531EF /* GASGO_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CDA03A2AD54A3E008531EF /* GASGO_Tests.swift */; };
+		C8CDA0452AD54A3E008531EF /* GASGO_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CDA0442AD54A3E008531EF /* GASGO_UITests.swift */; };
+		C8CDA0472AD54A3E008531EF /* GASGO_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CDA0462AD54A3E008531EF /* GASGO_UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8CDA0372AD54A3E008531EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8CDA01E2AD54A3B008531EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8CDA0252AD54A3B008531EF;
+			remoteInfo = GASGO.;
+		};
+		C8CDA0412AD54A3E008531EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8CDA01E2AD54A3B008531EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8CDA0252AD54A3B008531EF;
+			remoteInfo = GASGO.;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B86113E02AD67F3E00BA787B /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
+		B86113E22AD68A7100BA787B /* favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favorite.swift; sourceTree = "<group>"; };
+		B86113E42AD68A9400BA787B /* search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = search.swift; sourceTree = "<group>"; };
+		B8C1342B2AD7E31F00A0CC19 /* mapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapModel.swift; sourceTree = "<group>"; };
+		B8EDCD7E2ADAA2CD00EBE974 /* locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locations.swift; sourceTree = "<group>"; };
+		B8EDCD802ADABD0000EBE974 /* stationDetailsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stationDetailsSheet.swift; sourceTree = "<group>"; };
+		B8EDCD822ADB033400EBE974 /* stationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stationCard.swift; sourceTree = "<group>"; };
+		C8CDA0262AD54A3B008531EF /* GASGO..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GASGO..app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8CDA0292AD54A3B008531EF /* GASGO_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GASGO_App.swift; sourceTree = "<group>"; };
+		C8CDA02B2AD54A3B008531EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C8CDA02D2AD54A3E008531EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8CDA0302AD54A3E008531EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8CDA0362AD54A3E008531EF /* GASGO.Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GASGO.Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8CDA03A2AD54A3E008531EF /* GASGO_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GASGO_Tests.swift; sourceTree = "<group>"; };
+		C8CDA0402AD54A3E008531EF /* GASGO.UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GASGO.UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8CDA0442AD54A3E008531EF /* GASGO_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GASGO_UITests.swift; sourceTree = "<group>"; };
+		C8CDA0462AD54A3E008531EF /* GASGO_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GASGO_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8CDA0232AD54A3B008531EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CDA0332AD54A3E008531EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CDA03D2AD54A3E008531EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8CDA01D2AD54A3B008531EF = {
+			isa = PBXGroup;
+			children = (
+				C8CDA0282AD54A3B008531EF /* GASGO. */,
+				C8CDA0392AD54A3E008531EF /* GASGO.Tests */,
+				C8CDA0432AD54A3E008531EF /* GASGO.UITests */,
+				C8CDA0272AD54A3B008531EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8CDA0272AD54A3B008531EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8CDA0262AD54A3B008531EF /* GASGO..app */,
+				C8CDA0362AD54A3E008531EF /* GASGO.Tests.xctest */,
+				C8CDA0402AD54A3E008531EF /* GASGO.UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8CDA0282AD54A3B008531EF /* GASGO. */ = {
+			isa = PBXGroup;
+			children = (
+				C8CDA0292AD54A3B008531EF /* GASGO_App.swift */,
+				C8CDA02B2AD54A3B008531EF /* ContentView.swift */,
+				B86113E42AD68A9400BA787B /* search.swift */,
+				B86113E22AD68A7100BA787B /* favorite.swift */,
+				B86113E02AD67F3E00BA787B /* homePage.swift */,
+				B8EDCD802ADABD0000EBE974 /* stationDetailsSheet.swift */,
+				C8CDA02D2AD54A3E008531EF /* Assets.xcassets */,
+				C8CDA02F2AD54A3E008531EF /* Preview Content */,
+				B8EDCD822ADB033400EBE974 /* stationCard.swift */,
+			);
+			path = GASGO.;
+			sourceTree = "<group>";
+		};
+		C8CDA02F2AD54A3E008531EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C8CDA0302AD54A3E008531EF /* Preview Assets.xcassets */,
+				B8C1342B2AD7E31F00A0CC19 /* mapModel.swift */,
+				B8EDCD7E2ADAA2CD00EBE974 /* locations.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8CDA0392AD54A3E008531EF /* GASGO.Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C8CDA03A2AD54A3E008531EF /* GASGO_Tests.swift */,
+			);
+			path = GASGO.Tests;
+			sourceTree = "<group>";
+		};
+		C8CDA0432AD54A3E008531EF /* GASGO.UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8CDA0442AD54A3E008531EF /* GASGO_UITests.swift */,
+				C8CDA0462AD54A3E008531EF /* GASGO_UITestsLaunchTests.swift */,
+			);
+			path = GASGO.UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8CDA0252AD54A3B008531EF /* GASGO. */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8CDA04A2AD54A3E008531EF /* Build configuration list for PBXNativeTarget "GASGO." */;
+			buildPhases = (
+				C8CDA0222AD54A3B008531EF /* Sources */,
+				C8CDA0232AD54A3B008531EF /* Frameworks */,
+				C8CDA0242AD54A3B008531EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GASGO.;
+			productName = GASGO.;
+			productReference = C8CDA0262AD54A3B008531EF /* GASGO..app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8CDA0352AD54A3E008531EF /* GASGO.Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8CDA04D2AD54A3E008531EF /* Build configuration list for PBXNativeTarget "GASGO.Tests" */;
+			buildPhases = (
+				C8CDA0322AD54A3E008531EF /* Sources */,
+				C8CDA0332AD54A3E008531EF /* Frameworks */,
+				C8CDA0342AD54A3E008531EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8CDA0382AD54A3E008531EF /* PBXTargetDependency */,
+			);
+			name = GASGO.Tests;
+			productName = GASGO.Tests;
+			productReference = C8CDA0362AD54A3E008531EF /* GASGO.Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8CDA03F2AD54A3E008531EF /* GASGO.UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8CDA0502AD54A3E008531EF /* Build configuration list for PBXNativeTarget "GASGO.UITests" */;
+			buildPhases = (
+				C8CDA03C2AD54A3E008531EF /* Sources */,
+				C8CDA03D2AD54A3E008531EF /* Frameworks */,
+				C8CDA03E2AD54A3E008531EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8CDA0422AD54A3E008531EF /* PBXTargetDependency */,
+			);
+			name = GASGO.UITests;
+			productName = GASGO.UITests;
+			productReference = C8CDA0402AD54A3E008531EF /* GASGO.UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8CDA01E2AD54A3B008531EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C8CDA0252AD54A3B008531EF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					C8CDA0352AD54A3E008531EF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C8CDA0252AD54A3B008531EF;
+					};
+					C8CDA03F2AD54A3E008531EF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C8CDA0252AD54A3B008531EF;
+					};
+				};
+			};
+			buildConfigurationList = C8CDA0212AD54A3B008531EF /* Build configuration list for PBXProject "GASGO." */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8CDA01D2AD54A3B008531EF;
+			productRefGroup = C8CDA0272AD54A3B008531EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8CDA0252AD54A3B008531EF /* GASGO. */,
+				C8CDA0352AD54A3E008531EF /* GASGO.Tests */,
+				C8CDA03F2AD54A3E008531EF /* GASGO.UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8CDA0242AD54A3B008531EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CDA0312AD54A3E008531EF /* Preview Assets.xcassets in Resources */,
+				C8CDA02E2AD54A3E008531EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CDA0342AD54A3E008531EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CDA03E2AD54A3E008531EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8CDA0222AD54A3B008531EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8EDCD832ADB033400EBE974 /* stationCard.swift in Sources */,
+				B8C1342C2AD7E31F00A0CC19 /* mapModel.swift in Sources */,
+				B86113E12AD67F3E00BA787B /* homePage.swift in Sources */,
+				B86113E32AD68A7100BA787B /* favorite.swift in Sources */,
+				B86113E52AD68A9400BA787B /* search.swift in Sources */,
+				B8EDCD7F2ADAA2CD00EBE974 /* locations.swift in Sources */,
+				B8EDCD812ADABD0000EBE974 /* stationDetailsSheet.swift in Sources */,
+				C8CDA02C2AD54A3B008531EF /* ContentView.swift in Sources */,
+				C8CDA02A2AD54A3B008531EF /* GASGO_App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CDA0322AD54A3E008531EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CDA03B2AD54A3E008531EF /* GASGO_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CDA03C2AD54A3E008531EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CDA0472AD54A3E008531EF /* GASGO_UITestsLaunchTests.swift in Sources */,
+				C8CDA0452AD54A3E008531EF /* GASGO_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8CDA0382AD54A3E008531EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8CDA0252AD54A3B008531EF /* GASGO. */;
+			targetProxy = C8CDA0372AD54A3E008531EF /* PBXContainerItemProxy */;
+		};
+		C8CDA0422AD54A3E008531EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8CDA0252AD54A3B008531EF /* GASGO. */;
+			targetProxy = C8CDA0412AD54A3E008531EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C8CDA0482AD54A3E008531EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8CDA0492AD54A3E008531EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8CDA04B2AD54A3E008531EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GASGO./Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This application needs your location to function ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "A.GASGO-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8CDA04C2AD54A3E008531EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GASGO./Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This application needs your location to function ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "A.GASGO-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C8CDA04E2AD54A3E008531EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "A.GASGO-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GASGO..app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GASGO.";
+			};
+			name = Debug;
+		};
+		C8CDA04F2AD54A3E008531EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "A.GASGO-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GASGO..app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GASGO.";
+			};
+			name = Release;
+		};
+		C8CDA0512AD54A3E008531EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "A.GASGO-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GASGO.;
+			};
+			name = Debug;
+		};
+		C8CDA0522AD54A3E008531EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "A.GASGO-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GASGO.;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8CDA0212AD54A3B008531EF /* Build configuration list for PBXProject "GASGO." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8CDA0482AD54A3E008531EF /* Debug */,
+				C8CDA0492AD54A3E008531EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8CDA04A2AD54A3E008531EF /* Build configuration list for PBXNativeTarget "GASGO." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8CDA04B2AD54A3E008531EF /* Debug */,
+				C8CDA04C2AD54A3E008531EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8CDA04D2AD54A3E008531EF /* Build configuration list for PBXNativeTarget "GASGO.Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8CDA04E2AD54A3E008531EF /* Debug */,
+				C8CDA04F2AD54A3E008531EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8CDA0502AD54A3E008531EF /* Build configuration list for PBXNativeTarget "GASGO.UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8CDA0512AD54A3E008531EF /* Debug */,
+				C8CDA0522AD54A3E008531EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8CDA01E2AD54A3B008531EF /* Project object */;
+}
