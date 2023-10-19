@@ -21,13 +21,7 @@ struct searchPage: View {
     
     
     var body: some View {
-        //        VStack(alignment: .leading){
-        //            // the page title
-        //            Text("Search")
-        //                .font(.title)
-        //                .bold()
-        //                .padding(20)
-        
+    
         // search par
         NavigationStack{
             List(filteredLocations, id:\.id) { location in
