@@ -1,6 +1,7 @@
-# Gas Station Finder App
+# GasGo
 
-![image](https://github.com/Gehad1995/GasGo/assets/98451075/91efcdaf-5c9b-4d90-9cec-44ab18920ad3)
+<img width="150" alt="image" src="https://github.com/Gehad1995/GasGo/assets/98451075/91efcdaf-5c9b-4d90-9cec-44ab18920ad3">
+
 
 
 ## Table of Contents
@@ -17,19 +18,19 @@
 
 ## Introduction
 
-The Gas Station Finder App is a convenient tool for locating gas stations near your current location and provides information about the available services at each station. The app helps you find the nearest gas station and ensures you have all the information you need to make your refueling experience efficient and convenient.
+The GasGo is a convenient tool for locating gas stations near your current location and provides information about the available services at each station. The app helps you find the nearest gas station and ensures you have all the information you need to make your refueling experience efficient and convenient.
 
-![Map Screenshot](map_screenshot.png)
+![image](https://github.com/Gehad1995/GasGo/assets/98451075/458ca759-f35d-49af-9e28-182222844c18)
 
 ## Features
 
 - **Find Nearby Gas Stations**: Locate gas stations in your vicinity based on your current location or a specified address.
 
-- **Detailed Station Information**: Access comprehensive information about each gas station, including its name, address, contact details, and services provided.
+- **Detailed Station Information**: Access comprehensive information about each gas station, including its name, address, contact details, rate, and services provided.
 
 - **Service Availability**: The app allows gas station owners to set the services they offer, such as fuel types, car wash, convenience store, and more. Users can see which services are available at each station.
 
-- **Navigation**: Get directions to the chosen gas station using popular navigation apps like Apple Maps or Google Maps.
+- **Navigation**: Get directions to the chosen gas station using Apple Maps.
 
 - **User Reviews**: Share your experiences by leaving reviews and ratings for gas stations. Read reviews from other users to make informed decisions.
 
@@ -43,19 +44,19 @@ The Gas Station Finder App is a convenient tool for locating gas stations near y
 
 ### Prerequisites
 
-- iOS or Android device
+- iOS device
 - Internet connection
 - GPS enabled for location services
 
 ### Installation
 
-1. Download the Gas Station Finder App from the App Store (iOS) or Google Play Store (Android).
+1. Download GasGo from the App Store.
 
 2. Install the app on your device.
 
 ## Usage
 
-1. **Open the App**: Launch the Gas Station Finder App.
+1. **Open the App**: Launch GasGo.
 
 2. **Location Permission**: If prompted, grant the app permission to access your device's location.
 
@@ -83,16 +84,11 @@ The Gas Station Finder App is a convenient tool for locating gas stations near y
 
 ## Screenshots
 
-![Station Details Screenshot](station_details_screenshot.png)
+![image](https://github.com/Gehad1995/GasGo/assets/98451075/d5813899-3359-400e-96d1-065af0e1f763)  ![image](https://github.com/Gehad1995/GasGo/assets/98451075/03c20eee-c2ab-49d1-bb62-9103eae786a7)  ![image](https://github.com/Gehad1995/GasGo/assets/98451075/d1ad9a78-921c-429b-8d57-2e1b4fa69e5e)
 
-## Contributing
 
-We welcome contributions to enhance the Gas Station Finder App. If you'd like to contribute, please follow our [Contribution Guidelines](CONTRIBUTING.md).
 
-## License
-
-This Gas Station Finder App is licensed under the [MIT License](LICENSE.md).
 
 ---
 
-Thank you for using the Gas Station Finder App! We hope it makes your refueling experiences more convenient and efficient. If you have any questions or feedback, please don't hesitate to reach out to our support team at support@gasstationfinderapp.com.
+Thank you for using GasGo! We hope it makes your refueling experiences more convenient and efficient. If you have any questions or feedback, please don't hesitate to reach out to us
