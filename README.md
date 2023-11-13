@@ -19,7 +19,7 @@
 
 The GasGo is a convenient tool for locating gas stations near your current location and provides information about the available services at each station. The app helps you find the nearest gas station and ensures you have all the information you need to make your refueling experience efficient and convenient.
 
-![image](https://github.com/Gehad1995/GasGo/assets/98451075/458ca759-f35d-49af-9e28-182222844c18)
+<img width="360" alt="image" src="https://github.com/Gehad1995/GasGo/assets/98451075/f062f10f-8d5f-4fa0-8d0e-a455ed15406b">
 
 ## Features
 
@@ -83,7 +83,10 @@ The GasGo is a convenient tool for locating gas stations near your current locat
 
 ## Screenshots
 
-![image](https://github.com/Gehad1995/GasGo/assets/98451075/d5813899-3359-400e-96d1-065af0e1f763)  ![image](https://github.com/Gehad1995/GasGo/assets/98451075/03c20eee-c2ab-49d1-bb62-9103eae786a7)  ![image](https://github.com/Gehad1995/GasGo/assets/98451075/d1ad9a78-921c-429b-8d57-2e1b4fa69e5e)   <img width="202" alt="Screenshot 2023-11-13 at 6 48 50 PM" src="https://github.com/Gehad1995/GasGo/assets/98451075/d835da61-df8b-4366-a7b7-ae3ea58cda42">
+<img width="360" alt="image" src="https://github.com/Gehad1995/GasGo/assets/98451075/f062f10f-8d5f-4fa0-8d0e-a455ed15406b">
+  <img width="360" alt="image" src="https://github.com/Gehad1995/GasGo/assets/98451075/65f529e3-306d-4439-962f-806435d1ff80">
+  <img width="360" alt="image" src="https://github.com/Gehad1995/GasGo/assets/98451075/b79437ec-e6eb-4156-941e-5d24e036e2d8">
+   <img width="370" alt="Screenshot 2023-11-13 at 6 48 50 PM" src="https://github.com/Gehad1995/GasGo/assets/98451075/d835da61-df8b-4366-a7b7-ae3ea58cda42">
 
 
 
