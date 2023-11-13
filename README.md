@@ -19,7 +19,8 @@
 
 The GasGo is a convenient tool for locating gas stations near your current location and provides information about the available services at each station. The app helps you find the nearest gas station and ensures you have all the information you need to make your refueling experience efficient and convenient.
 
-<img width="360" alt="image" src="https://github.com/Gehad1995/GasGo/assets/98451075/f062f10f-8d5f-4fa0-8d0e-a455ed15406b">
+![Screenshot_2023-11-13_at_6 44 47 PM-transformed](https://github.com/Gehad1995/GasGo/assets/98451075/8fd0a0a8-0b3b-486d-b36c-a7d99093f781)
+
 
 ## Features
 
