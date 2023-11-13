@@ -83,7 +83,7 @@ The GasGo is a convenient tool for locating gas stations near your current locat
 
 ## Screenshots
 
-![image](https://github.com/Gehad1995/GasGo/assets/98451075/d5813899-3359-400e-96d1-065af0e1f763)  ![image](https://github.com/Gehad1995/GasGo/assets/98451075/03c20eee-c2ab-49d1-bb62-9103eae786a7)  ![image](https://github.com/Gehad1995/GasGo/assets/98451075/d1ad9a78-921c-429b-8d57-2e1b4fa69e5e)  <img width="402" alt="image" src="https://github.com/Gehad1995/GasGo/assets/98451075/761969ce-d66b-4ea5-869e-a1a1cce13eaf">
+![image](https://github.com/Gehad1995/GasGo/assets/98451075/d5813899-3359-400e-96d1-065af0e1f763)  ![image](https://github.com/Gehad1995/GasGo/assets/98451075/03c20eee-c2ab-49d1-bb62-9103eae786a7)  ![image](https://github.com/Gehad1995/GasGo/assets/98451075/d1ad9a78-921c-429b-8d57-2e1b4fa69e5e)   ![image](https://github.com/Gehad1995/GasGo/assets/98451075/8da5d1f8-2d0c-4eb5-a745-87bbede8c68e)
 
 
 
