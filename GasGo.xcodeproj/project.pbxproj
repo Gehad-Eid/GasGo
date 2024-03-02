@@ -7,18 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B859B8802B92474700B3145C /* GasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859B87F2B92474700B3145C /* GasStation.swift */; };
+		B859B8822B92475800B3145C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859B8812B92475800B3145C /* Service.swift */; };
+		B859B8842B92476C00B3145C /* UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859B8832B92476C00B3145C /* UserType.swift */; };
+		B859B8862B924D7500B3145C /* OnboardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859B8852B924D7500B3145C /* OnboardingData.swift */; };
+		B859B8882B924DA800B3145C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859B8872B924DA800B3145C /* OnboardingView.swift */; };
+		B859B88B2B924E6000B3145C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859B88A2B924E6000B3145C /* CustomButton.swift */; };
+		B859B88E2B9250FD00B3145C /* TextColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859B88D2B9250FD00B3145C /* TextColorExtension.swift */; };
+		B859B8902B92536700B3145C /* HexColorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859B88F2B92536700B3145C /* HexColorInput.swift */; };
+		B859B8922B92541B00B3145C /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859B8912B92541B00B3145C /* ButtonType.swift */; };
+		B859B8952B92591A00B3145C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859B8942B92591A00B3145C /* ContentView.swift */; };
+		B859B8972B93118200B3145C /* IconTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859B8962B93118200B3145C /* IconTextField.swift */; };
+		B859B8992B93131200B3145C /* GrayLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859B8982B93131200B3145C /* GrayLine.swift */; };
 		B885BAC82B7BDCA400FBD924 /* GasGoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B885BAC72B7BDCA400FBD924 /* GasGoApp.swift */; };
-		B885BACA2B7BDCA400FBD924 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B885BAC92B7BDCA400FBD924 /* ContentView.swift */; };
+		B885BACA2B7BDCA400FBD924 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B885BAC92B7BDCA400FBD924 /* SplashScreenView.swift */; };
 		B885BACC2B7BDCA500FBD924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B885BACB2B7BDCA500FBD924 /* Assets.xcassets */; };
 		B885BACF2B7BDCA500FBD924 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B885BACE2B7BDCA500FBD924 /* Preview Assets.xcassets */; };
+		B885BAD72B7BEEEB00FBD924 /* Stations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B885BAD62B7BEEEB00FBD924 /* Stations.swift */; };
+		B885BAD92B7C913500FBD924 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = B885BAD82B7C913500FBD924 /* Container.swift */; };
+		B885BADB2B7C917900FBD924 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B885BADA2B7C917900FBD924 /* Profile.swift */; };
+		B885BADD2B7C918400FBD924 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B885BADC2B7C918400FBD924 /* Favorite.swift */; };
+		B885BAE12B7C925400FBD924 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = B885BAE02B7C925400FBD924 /* Login.swift */; };
+		B885BAE32B7C925E00FBD924 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B885BAE22B7C925E00FBD924 /* SignUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B859B87F2B92474700B3145C /* GasStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStation.swift; sourceTree = "<group>"; };
+		B859B8812B92475800B3145C /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		B859B8832B92476C00B3145C /* UserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserType.swift; sourceTree = "<group>"; };
+		B859B8852B924D7500B3145C /* OnboardingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingData.swift; sourceTree = "<group>"; };
+		B859B8872B924DA800B3145C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B859B88A2B924E6000B3145C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		B859B88D2B9250FD00B3145C /* TextColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextColorExtension.swift; sourceTree = "<group>"; };
+		B859B88F2B92536700B3145C /* HexColorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColorInput.swift; sourceTree = "<group>"; };
+		B859B8912B92541B00B3145C /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+		B859B8942B92591A00B3145C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B859B8962B93118200B3145C /* IconTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextField.swift; sourceTree = "<group>"; };
+		B859B8982B93131200B3145C /* GrayLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayLine.swift; sourceTree = "<group>"; };
 		B885BAC42B7BDCA400FBD924 /* GasGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B885BAC72B7BDCA400FBD924 /* GasGoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasGoApp.swift; sourceTree = "<group>"; };
-		B885BAC92B7BDCA400FBD924 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B885BAC92B7BDCA400FBD924 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		B885BACB2B7BDCA500FBD924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B885BACE2B7BDCA500FBD924 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B885BAD62B7BEEEB00FBD924 /* Stations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stations.swift; sourceTree = "<group>"; };
+		B885BAD82B7C913500FBD924 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		B885BADA2B7C917900FBD924 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		B885BADC2B7C918400FBD924 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		B885BAE02B7C925400FBD924 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		B885BAE22B7C925E00FBD924 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +68,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B859B8892B924E4B00B3145C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B859B88A2B924E6000B3145C /* CustomButton.swift */,
+				B859B8962B93118200B3145C /* IconTextField.swift */,
+				B859B8982B93131200B3145C /* GrayLine.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B859B88C2B9250D500B3145C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B859B88D2B9250FD00B3145C /* TextColorExtension.swift */,
+				B859B88F2B92536700B3145C /* HexColorInput.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B859B8932B92546700B3145C /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				B859B8912B92541B00B3145C /* ButtonType.swift */,
+				B859B8832B92476C00B3145C /* UserType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		B885BABB2B7BDCA400FBD924 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +115,12 @@
 		B885BAC62B7BDCA400FBD924 /* GasGo */ = {
 			isa = PBXGroup;
 			children = (
+				B859B88C2B9250D500B3145C /* Extensions */,
+				B859B8892B924E4B00B3145C /* Components */,
+				B885BAE52B7C92CF00FBD924 /* Models */,
+				B885BAE42B7C92A100FBD924 /* Services */,
+				B885BAD52B7BDF4C00FBD924 /* Views */,
 				B885BAC72B7BDCA400FBD924 /* GasGoApp.swift */,
-				B885BAC92B7BDCA400FBD924 /* ContentView.swift */,
 				B885BACB2B7BDCA500FBD924 /* Assets.xcassets */,
 				B885BACD2B7BDCA500FBD924 /* Preview Content */,
 			);
@@ -65,6 +133,64 @@
 				B885BACE2B7BDCA500FBD924 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B885BAD52B7BDF4C00FBD924 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B885BADF2B7C924A00FBD924 /* Auth */,
+				B885BADE2B7C923300FBD924 /* UI */,
+				B885BAD82B7C913500FBD924 /* Container.swift */,
+				B885BAC92B7BDCA400FBD924 /* SplashScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B885BADE2B7C923300FBD924 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B885BAD62B7BEEEB00FBD924 /* Stations.swift */,
+				B885BADA2B7C917900FBD924 /* Profile.swift */,
+				B885BADC2B7C918400FBD924 /* Favorite.swift */,
+				B859B8872B924DA800B3145C /* OnboardingView.swift */,
+				B859B8942B92591A00B3145C /* ContentView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B885BADF2B7C924A00FBD924 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B885BAE02B7C925400FBD924 /* Login.swift */,
+				B885BAE22B7C925E00FBD924 /* SignUp.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		B885BAE42B7C92A100FBD924 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B885BAE62B7C933C00FBD924 /* Auth */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B885BAE52B7C92CF00FBD924 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B859B8932B92546700B3145C /* Enums */,
+				B859B87F2B92474700B3145C /* GasStation.swift */,
+				B859B8812B92475800B3145C /* Service.swift */,
+				B859B8852B924D7500B3145C /* OnboardingData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B885BAE62B7C933C00FBD924 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +263,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B885BACA2B7BDCA400FBD924 /* ContentView.swift in Sources */,
+				B859B8862B924D7500B3145C /* OnboardingData.swift in Sources */,
+				B885BAE12B7C925400FBD924 /* Login.swift in Sources */,
+				B859B8902B92536700B3145C /* HexColorInput.swift in Sources */,
+				B859B8842B92476C00B3145C /* UserType.swift in Sources */,
+				B859B8802B92474700B3145C /* GasStation.swift in Sources */,
+				B859B88B2B924E6000B3145C /* CustomButton.swift in Sources */,
+				B885BACA2B7BDCA400FBD924 /* SplashScreenView.swift in Sources */,
+				B885BADB2B7C917900FBD924 /* Profile.swift in Sources */,
+				B885BAD92B7C913500FBD924 /* Container.swift in Sources */,
+				B885BADD2B7C918400FBD924 /* Favorite.swift in Sources */,
+				B885BAE32B7C925E00FBD924 /* SignUp.swift in Sources */,
+				B859B88E2B9250FD00B3145C /* TextColorExtension.swift in Sources */,
+				B859B8992B93131200B3145C /* GrayLine.swift in Sources */,
+				B859B8972B93118200B3145C /* IconTextField.swift in Sources */,
+				B859B8822B92475800B3145C /* Service.swift in Sources */,
+				B859B8922B92541B00B3145C /* ButtonType.swift in Sources */,
+				B859B8952B92591A00B3145C /* ContentView.swift in Sources */,
 				B885BAC82B7BDCA400FBD924 /* GasGoApp.swift in Sources */,
+				B859B8882B924DA800B3145C /* OnboardingView.swift in Sources */,
+				B885BAD72B7BEEEB00FBD924 /* Stations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
